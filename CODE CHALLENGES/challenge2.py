@@ -11,7 +11,7 @@ def exactly_two_positive(a, b, c):
     return positive_count == 2 # Returns True if exactly two out of three integers are positive, otherwise returns a False
 
 
-# TESTS FOR CONFIRMATIONS:
+# TESTS FOR CONFIRMATION:
 # print(exactly_two_positive(2, 4, -3))    
 # print(exactly_two_positive(-4, 6, 8))   
 # print(exactly_two_positive(4, -6, 9))   

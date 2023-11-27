@@ -8,6 +8,7 @@ def consonant(s):
     
     # Removes the vowels from the string
     consonant_substrings = ''.join(c if c not in 'aeiou' else ' ' for c in s)
+
     # Splits the string into consonant substrings
     consonant_substrings = consonant_substrings.split()
     
@@ -17,5 +18,5 @@ def consonant(s):
     return max_value
 
 # TESTS FOR CONFIRMATION:
-print(consonant("zodiacs"))   
-print(consonant("strength"))
+# print(consonant("zodiacs"))   
+# print(consonant("strength"))
