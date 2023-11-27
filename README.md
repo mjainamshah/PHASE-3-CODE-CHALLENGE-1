@@ -5,32 +5,19 @@
 #### **CREATED BY JAINAM SHAH**
 
 ## Learning Goals
-    - Build a React single page application from scratch
-    - Apply your knowledge of components, props and state management
-    - Design and architect features across a frontend
-    - Communicate and collaborate in a technical environment
-    - IntegrateJSON/API
-    - Incorporate client-side routing 
-    - Learn how to integrate Bootstrap
-    - Debug any issues
-
-## Project Description
-    A product catalogue!
-
-## Requirements
-    - You must make a single page application (only one index.html file) using create-react-app
-    - Your app should use at least 5 components/6 pages in a way that keeps your code well organized
-    - There should be at least 3 client-side routes using react-routerLinks to an external site.
-  
+    - Learn how to manipulate python
+    - Applying python to solve various problems
+    - Creating python backend app
 
 ## Setup/Installation Requirements
-    - Download zip in the code section of github to your desired folder on your device
+    - Clone or download zip in the code section of github to your desired folder on your device
     - Extract the files
     - Open the folder with vs code.
-    - In the terminal run pipenv install & pipenv shell to get the neccesary depencies & python files installed.
+    - In the terminal run pipenv install & pipenv shell to get the neccesary dependencies & python files installed.
     - Your application is running! Ready to go!
     
-## Features
+## Challenges:
+    For this week's code challenge you are required to solve all 3 challenges provided below. 
     - CHALLENGE 1: Converting 12-hour time to 24-hour time
     - CHALLENGE 2: Two numbers are positive.
     - CHALLENGE 3: Consonant values
@@ -45,7 +32,8 @@
 
  ## Challenge 2: Two numbers are positive
     - Your job is to write a function, which takes three integers a, b, and c as arguments, and returns True if exactly two of of the three integers are positive numbers (greater than zero), and False - otherwise.
-    **EXAMPLES:**
+
+    ** EXAMPLES: **
     - (2, 4, -3) == True
     - (-4, 6, 8) == True
     - (4, -6, 9) == True
@@ -55,7 +43,8 @@
 
  ## Challenge 3: Consonant value
     - Given a lowercase string that has alphabetic characters only and no spaces, return the highest value of consonant substrings. Consonants are any letters of the alphabet except "aeiou".We shall assign the following values: a = 1, b = 2, c = 3, .... z = 26.
-    **EXAMPLES:**
+
+    ** EXAMPLES: **
     - For the word "zodiacs", solve("zodiacs") = 26
     - For example, for the word "zodiacs", let's cross out the vowels. We get: "z d cs"
     - The consonant substrings are: "z", "d" and "cs" and the values are z = 26, d = 4 and cs = 3 + 19 = 22. The highest is 26.
